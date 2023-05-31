@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css.css">
 </head>
+
 <body>
     <header>
         <ul>
@@ -17,47 +19,49 @@
         </ul>
     </header>
     <main>
-        <form id="foodForm" >
-        <fieldset >
-            <legend>food info</legend>
-      <div>
-                        <label for="Name"> Name</label>
-                        <input type="text" id="Name" name="name" placeholder="add name" />
-                    </div>
-                      <div> <label for="type">Choose type:</label>
-<select name="type" id="type" form="type">
-  <option value="Fruit and vegetables">Fruit and vegetables</option>
-  <option value="Starchy food">Starchy food</option>
-  <option value="Dairy">Dairy</option>
-  <option value="Protein "selected>Protein</option>
-  <option value="Fat">Fat</option>
-</select>
-</div>          
-<div>
-    <label for="price"> price</label>
-    <input type="number" id="price" name="price" placeholder="add price" />
-</div>
-<div>
-  
-    <button type="submit">save</button>
-</div>
-</fieldset>
-</form>
-<table id="table">
-    <tr>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Type</th>
-      <th>price</th>
-    </tr>
-</table>
-        </main>
-    
+        <form id="foodForm">
+            <fieldset>
+                <legend>food info</legend>
+                <div>
+                    <label for="Name"> Name</label>
+                    <input type="text" id="Name" name="name" placeholder="add name" />
+                </div>
+                <div> <label for="type">Choose type:</label>
+                    <select name="type" id="type" form="type">
+                        <option value="Fruit and vegetables">Fruit and vegetables</option>
+                        <option value="Starchy food">Starchy food</option>
+                        <option value="Dairy">Dairy</option>
+                        <option value="Protein " selected>Protein</option>
+                        <option value="Fat">Fat</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="price"> price</label>
+                    <input type="number" id="price" name="price" placeholder="add price" />
+                </div>
+                <div>
+
+                    <button type="submit">save</button>
+                </div>
+            </fieldset>
+        </form>
+        <table id="table">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>price</th>
+            </tr>
+        </table>
+    </main>
+
 
     <script src="./res.js"></script>
-    <footer><h2  >&copy  copyright company</h2>
+    <footer>
+        <h2>&copy copyright company</h2>
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-linkedin"></a>
     </footer>
 </body>
+
 </html>
