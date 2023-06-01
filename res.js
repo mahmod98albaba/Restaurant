@@ -18,16 +18,16 @@ Information.prototype.render = function () {
     let fo1 = document.createElement('tr');
     table.appendChild(fo1);
     let fo2 = document.createElement('td');
-    id.textContent = this.foodid;
+    fo2.textContent = this.foodid;
     fo1.appendChild(fo2);
     let fo3 = document.createElement('td');
-    name1.textContent = this.name;
+    fo3.textContent = this.name;
     fo1.appendChild(fo3);
     let fo4 = document.createElement('td');
-    type1.textContent = this.type;
+    fo4.textContent = this.type;
     fo1.appendChild(fo4);
     let fo5 = document.createElement('td');
-    price1.textContent = this.price;
+    fo5.textContent = this.price;
     fo1.appendChild(fo5);
 
 }
@@ -39,9 +39,9 @@ saveValues.addEventListener('submit', handler)
 
 function handler(e) {
     e.preventDefault();
-    let foode = e.target.name.value;
-    let type1 = e.target.value;
-    let price1 = e.target.price.value;
+    let foode = e.target.name1.value;
+    let type1 = e.target.type.value;
+    let price1 = e.target.price1.value;
 
 
 
